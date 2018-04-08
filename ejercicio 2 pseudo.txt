@@ -1,0 +1,11 @@
+principal ()
+inicio
+   entero cal1,cal2,cal3
+   real promedio
+   imprimir "Digite las calificaciones"
+   leer cal1,cal2,cal3
+   promedio  (cal1+cal2+cal3)/3
+       si(promedio>95)
+	    promedio  100
+	imprimir"El promedio es:",promedio
+fin
