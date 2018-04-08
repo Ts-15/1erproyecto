@@ -1,0 +1,13 @@
+
+pricipal 0 
+inicio
+    real cal 
+    imprimir "dame la calificacion:"
+    leer cal 
+    si (cal > = 60)
+	  imprimir "aprobada"
+	si no
+	  imprimir "reprobada"
+
+
+fin
